@@ -1,6 +1,5 @@
 import pickle
 
-
 def cities_generator(filename):
     with open(filename, 'r') as file:
         for line in file:
@@ -30,3 +29,6 @@ def extract_locations(given_text):
         return ["No locations found"]
 
     return list(matching_cities)
+
+
+print(extract_locations("Colombo, Welimada"))

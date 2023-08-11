@@ -1,5 +1,8 @@
 from setuptools import setup, find_packages
 
+package_data={'my_library_name': ['cities.pkl']},
+
+
 setup(
     name='SL_cities_extractor',
     version='0.1.0',
